@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    .first-row{
+        width:100%;
+    }
+}
+
+.image {
+    height: 28rem;
+    aspect-ratio: 3/2;
+}
+
+.navbar {
+    background-color: #BCA37F;
+}
+
+.card {
+    border: 2px solid #BCA37F;
+    box-shadow: 0 0 5px black;
+    transition: .2s;
+    cursor: pointer;
+    &:hover{
+        transition: .2s;
+        transform: scale(1.02);
+    }
+}
+
+body {
+    background: linear-gradient(#BBAB8C, #fff);
+    background-repeat: no-repeat;
+}
+
+.cards {
+    height: 29rem;
+}
+
