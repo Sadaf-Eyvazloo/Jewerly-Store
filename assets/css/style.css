@@ -14,11 +14,11 @@
 }
 
 .navbar {
-  background-color: #BCA37F;
+  background-color: rgb(188, 163, 127);
 }
 
 .card {
-  border: 2px solid #BCA37F;
+  border: 2px solid #8c8c8c;
   box-shadow: 0 0 5px black;
   transition: 0.2s;
   cursor: pointer;
@@ -29,12 +29,8 @@
 }
 
 body {
-  background: linear-gradient(#BBAB8C, #fff);
+  background: linear-gradient(#8ca3bb, #fff);
   background-repeat: no-repeat;
-}
-
-.cards {
-  height: 29rem;
 }
 
 /*# sourceMappingURL=style.css.map */

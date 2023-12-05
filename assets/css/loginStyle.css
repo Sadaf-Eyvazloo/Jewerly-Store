@@ -1,0 +1,23 @@
+body {
+  background: url("../image/maingif.gif") no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.main-div .column-css {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.main-div .column-css .form-body {
+  background-color: rgba(236, 227, 206, 0.1176470588);
+  box-shadow: 0 0 10px black;
+}
+
+.navbar {
+  background-color: rgba(188, 163, 127, 0.551);
+}
+
+/*# sourceMappingURL=loginStyle.css.map */
