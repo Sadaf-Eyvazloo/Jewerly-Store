@@ -20,4 +20,12 @@ body {
   background-color: rgba(188, 163, 127, 0.551);
 }
 
+.good {
+  border: 2px solid green;
+}
+
+.wrong {
+  border: 2px solid rgb(128, 0, 0);
+}
+
 /*# sourceMappingURL=loginStyle.css.map */

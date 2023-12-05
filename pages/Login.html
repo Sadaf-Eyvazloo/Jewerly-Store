@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
-    <script src="../assets/bootstrap/js/bootstrap.bundle.min.js" defer></script>
-    <link rel="stylesheet" href="../assets/css/loginStyle.css">
-    <title>Login/SWAROVSKI</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+  <script src="../assets/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+  <link rel="stylesheet" href="../assets/css/loginStyle.css">
+  <script src="../assets/js/acc.js"defer></script>
+  <title>Login/SWAROVSKI</title>
 </head>
+
 <body>
 
   <nav class="navbar navbar-expand-lg">
@@ -16,66 +19,57 @@
         <img src="../assets/image/l-logo.png" alt="Logo" width="200" height="30" class="d-inline-block align-text-top">
       </a>
       <a class="navbar-brand" href="#"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../pages/Login.html">login</a>
+            <a class="nav-link active fs-4" aria-current="page" href="../index.html">Home</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-    <div class="container-fluid main-div">
-      <div class="background">
-        <div class="row">
-          <div class="col column-css">
-            <div class="card form-body">
-              <div class="card-body">
-                <form >
-                  <div>
-                    <h4 class="d-flex justify-content-center">
-                      Login
-                    </h4>
-                    <p class="text-center">Sign-in to view your recent purchases or <br>wishlist and manage your personal details <br>and preferences here</p>
+  <div class="container-fluid main-div">
+    <div class="background">
+      <div class="row">
+        <div class="col column-css">
+          <div class="card form-body">
+            <div class="card-body text-white">
+              <form>
+                <div>
+                  <h4 class="d-flex justify-content-center">
+                    Login
+                  </h4>
+                  <p class="text-center">Sign-in to view your recent purchases or <br>wishlist and manage your personal
+                    details <br>and preferences here</p>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"></label>
+                  Email address
+                  </label>
+                  <input id="email" type="email" class="form-control" aria-describedby="emailHelp" />
+                  <p id="text"></p>
+                  <div id="emailHelp" class="form-text">
+                    We'll never share your email with anyone else.
                   </div>
-                  <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label"></label>
-                      Email address
-                    </label>
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="exampleInputEmail1"
-                      aria-describedby="emailHelp"
-                    />
-                    <div id="emailHelp" class="form-text">
-                      We'll never share your email with anyone else.
-                    </div>
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label"
-                      >Password</label
-                    >
-                    <input
-                      type="password"
-                      class="form-control"
-                      id="exampleInputPassword1"
-                    />
-                  </div>
-                  <button type="submit" class="btn btn-success mt-2 ">LOGIN</button>
-                </form>
-              </div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input id="password" type="password" class="form-control" />
+                  <p id="text2"></p>
+                </div>
+                <button id="btn" type="submit" class="btn btn-success mt-2 ">LOGIN</button>
+              </form>
             </div>
           </div>
         </div>
       </div>
-      </div>
+    </div>
+  </div>
 </body>
+
 </html>
